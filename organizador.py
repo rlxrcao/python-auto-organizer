@@ -6,7 +6,7 @@ caminho = os.getcwd()
 
 print(f"Organizando a pasta: {caminho}")
 
-# Dicionário de extensões (O que vai pra onde)
+# Dicionário de extensões
 extensoes = {
     ".pdf": "Documentos",
     ".docx": "Documentos",
@@ -39,3 +39,4 @@ for arquivo in os.listdir(caminho):
         print(f"Movido: {arquivo} -> {pasta_destino}")
 
 print("✅ Tudo organizado com sucesso!")
+
