@@ -1,14 +1,23 @@
-# 📂 AutoOrganizer - Automação de Arquivos em Python
+# 📂 AutoOrganizer - Organizador de Arquivos Inteligente
 
-Este é um script de automação desenvolvido em **Python** para organizar diretórios automaticamente, separando arquivos por extensão (imagens, documentos, instaladores) em pastas categorizadas.
+Este é um script de automação em **Python** que organiza instantaneamente seus arquivos. Ele varre o diretório atual, identifica as extensões (PDF, JPG, XLSX, etc.) e move os arquivos para pastas categorizadas automaticamente.
 
-## 🛠 Tecnologias Utilizadas
-* **Python 3**
-* Biblioteca **OS** (Manipulação de Sistema Operacional)
-* Biblioteca **Shutil** (Operações de arquivos de alto nível)
+## 🚀 Como Usar
+Para o script funcionar corretamente, ele deve ser executado **dentro** da pasta que você deseja organizar.
 
-## 🚀 Como funciona
-O script escaneia o diretório alvo, identifica as extensões dos arquivos e os move automaticamente para pastas criadas dinamicamente. Isso demonstra o uso de lógica de programação para resolver problemas cotidianos de produtividade.
+1. **Baixe** o arquivo `organizador.py`.
+2. **Mova** o arquivo para a pasta que está bagunçada (ex: sua pasta de Downloads).
+3. Abra o terminal dentro dessa pasta (Segure `Shift` + `Botão Direito` na pasta -> "Abrir janela do PowerShell/Terminal aqui").
+4. Execute o comando:
+   ```bash
+   python organizador.py
 
-## 📌 Sobre Mim
-Projeto desenvolvido por **Rafael Arueira**, estudante de Sistemas de Informação, focado em desenvolvimento de scripts para automação e análise de dados.
+🛠 Tecnologias Utilizadas
+Python 3
+
+Biblioteca OS (Manipulação de arquivos e diretórios)
+
+Biblioteca Shutil (Movimentação de arquivos)
+
+📌 Sobre
+Desenvolvido por Rafael Arueira. Projeto criado para aplicar conceitos de automação de tarefas (RPA) e manipulação de sistema de arquivos com Python.
